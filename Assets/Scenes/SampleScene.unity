@@ -1151,12 +1151,12 @@ GameObject:
   - component: {fileID: 739869373}
   - component: {fileID: 739869372}
   - component: {fileID: 739869379}
+  - component: {fileID: 739869378}
   - component: {fileID: 739869377}
   - component: {fileID: 739869376}
-  - component: {fileID: 739869378}
   m_Layer: 0
   m_Name: weight plate left
-  m_TagString: Untagged
+  m_TagString: StickyObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1171,7 +1171,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.0313926, y: 0.34320915, z: -0.1302095}
-  m_LocalScale: {x: 4.754936, y: -0.10436413, z: 4.754936}
+  m_LocalScale: {x: 4.7549367, y: -0.104364134, z: 4.7549367}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 291549614}
@@ -1234,9 +1234,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739869369}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b9977c4a5a068c240844e4c0e08e5f84, type: 2}
+  m_Controller: {fileID: 9100000, guid: cb7bc503865ce4147a6efbb8aa4d122f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1929,12 +1929,12 @@ GameObject:
   - component: {fileID: 1136751094}
   - component: {fileID: 1136751093}
   - component: {fileID: 1136751100}
+  - component: {fileID: 1136751099}
   - component: {fileID: 1136751098}
   - component: {fileID: 1136751097}
-  - component: {fileID: 1136751099}
   m_Layer: 0
   m_Name: weight plate right
-  m_TagString: Untagged
+  m_TagString: StickyObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1948,8 +1948,8 @@ Transform:
   m_GameObject: {fileID: 1136751090}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.299249, y: 0.3432091, z: -0.1302095}
-  m_LocalScale: {x: 4.754936, y: -0.10436413, z: 4.754936}
+  m_LocalPosition: {x: 4.2992487, y: 0.34320915, z: -0.1302095}
+  m_LocalScale: {x: 4.7549367, y: -0.104364134, z: 4.7549367}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 291549614}
@@ -2012,9 +2012,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136751090}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cb7bc503865ce4147a6efbb8aa4d122f, type: 2}
+  m_Controller: {fileID: 9100000, guid: b9977c4a5a068c240844e4c0e08e5f84, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2929,6 +2929,8 @@ MonoBehaviour:
   leftWeightScale: {fileID: 739869379}
   rightWeightScale: {fileID: 1136751100}
   weightText: {fileID: 712297298}
+  leftStageAnimator: {fileID: 739869376}
+  rightStageAnimator: {fileID: 1136751097}
 --- !u!1 &1791078477
 GameObject:
   m_ObjectHideFlags: 0
